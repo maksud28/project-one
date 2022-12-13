@@ -1,171 +1,97 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
   box-sizing: border-box;
 }
 
-body {
-  background-color: #778ca3;
-  font-family: "Roboto", sans-serif;
-}
-
 .container {
-  max-width: 1000px;
-  background-color: #4b6584;
+  background-color: #a29bfe;
+  max-width: 992px;
   margin: 0 auto;
   padding: 20px;
 }
 
-header {
-}
-
-.profile-image {
-  width: 120px;
-  height: 120px;
-  border: 3px solid #353b48;
-  border-radius: 50%;
+.header-container {
   float: left;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #1199ee;
-}
-
-h3 {
-  border: 1px solid #b2bec3;
-  padding: 10px;
-  margin-right: 10px;
-}
-
-.header-bio {
-  float: left;
-  padding: 30px;
-}
-
-.header-contact {
-  float: right;
-  padding: 30px;
-}
-
-.header-contact a {
-  text-decoration: none;
-  color: #b2bec3;
-  font-weight: bold;
-}
-
-.header-contact a:hover {
-  text-decoration: underline;
-  color: #1199ee;
-}
-
-/*---------------------------
-      Clearing Div
-  ---------------------------*/
-.div-clear {
+.clear {
   clear: both;
 }
 
-/*---------------------------
-      Horizontal Line
-  ---------------------------*/
-hr {
-  border: solid #353b48 3px;
-  width: 100%;
-  margin: 20px auto;
+.personal-img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  border-radius: 50%;
+  float: left;
+}
+.personal-bio {
+  float: left;
+  padding: 50px;
+}
+.personal-address {
+  float: right;
+  padding: 50px;
+}
+.personal-address a {
+  text-decoration: none;
+}
+.personal-address a:hover {
+  text-decoration: underline;
+  color: blueviolet;
+}
+.hr-line {
+  border: 3px solid;
   border-bottom: none;
-}
-
-.common-hr {
-  border: 1px solid #778ca3;
-  border-bottom: none;
-  width: 100%;
-  margin: 20px auto;
-}
-
-/*---------------------------
-      Personal section start
-  ---------------------------*/
-
-#personal-section {
-}
-
-.content {
+  border-radius: 5px;
   margin-bottom: 30px;
 }
-
 .left-div {
   width: 30%;
   float: left;
 }
-
 .right-div {
   width: 70%;
-  float: left;
-}
-
-.personal-info {
-}
-
-.personal-info tr,
-td {
-  border: 1px solid #b2bec3;
-  padding: 10px;
-}
-
-/*---------------------------
-      Education section start
-  ---------------------------*/
-.education-section {
-}
-
-.content {
-}
-
-.left-div {
-}
-
-.right-div {
-}
-
-.edu-template-left {
-  float: left;
-  width: 45%;
-}
-
-.edu-template-right {
   float: right;
+}
+
+h1,
+h3,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+
+.hr-normal {
+  border: 1px solid #fff;
+  border-bottom: none;
+  margin: 30px 0;
+}
+
+.aside-left {
   width: 45%;
+  float: left;
 }
 
-#personal-section .right-div li {
-  margin-left: 10px;
-  padding: 5px 0;
+.aside-right {
+  width: 45%;
+  float: right;
 }
 
-/*---------------------------
-      Footer section start
-  ---------------------------*/
-
-.bottom-container {
+.footer-container {
+  background-color: #81ecec;
+  margin-top: 30px;
+  padding: 20px;
   text-align: center;
-  background: #353b48;
-  color: #fff;
-  padding: 10px;
 }
-.bottom-container a {
-  color: #fff;
+.footer-container a {
   text-decoration: none;
-  margin: 20px;
+  padding: 20px;
 }
-.bottom-container p {
+.footer-container p {
   margin-top: 20px;
 }
-
-/*---------------------------
-      Footer section End
-  ---------------------------*/
