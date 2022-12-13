@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #a29bfe;
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header-container {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.personal-img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  border-radius: 50%;
+  float: left;
+}
+.personal-bio {
+  float: left;
+  padding: 50px;
+}
+.personal-address {
+  float: right;
+  padding: 50px;
+}
+.personal-address a {
+  text-decoration: none;
+}
+.personal-address a:hover {
+  text-decoration: underline;
+  color: blueviolet;
+}
+.hr-line {
+  border: 3px solid;
+  border-bottom: none;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.left-div {
+  width: 30%;
+  float: left;
+}
+.right-div {
+  width: 70%;
+  float: right;
+}
+
+h1,
+h3,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+
+.hr-normal {
+  border: 1px solid #fff;
+  border-bottom: none;
+  margin: 30px 0;
+}
+
+.aside-left {
+  width: 45%;
+  float: left;
+}
+
+.aside-right {
+  width: 45%;
+  float: right;
+}
+
+.footer-container {
+  background-color: #81ecec;
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+}
+.footer-container a {
+  text-decoration: none;
+  padding: 20px;
+}
+.footer-container p {
+  margin-top: 20px;
+}
